@@ -27,7 +27,7 @@ library(gdata)
 Now we will be reading the Excel file downloaded from [The Official Website of the City of New York](http://www1.nyc.gov/home/search/index.page?search-terms=Rolling+sales+update)
 
 ```{r}
-manhattansales <- read.xls("Data/rollingsales_manhattan.xls", pattern ="BOROUGH")
+manhattansales <- read.xls("/rollingsales_manhattan.xls", pattern ="BOROUGH")
 str(manhattansales)
 ```
 
